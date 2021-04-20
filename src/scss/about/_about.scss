@@ -1,0 +1,82 @@
+.about {
+  .tabs-wrapper {
+    display: flex;
+    flex-direction: row;
+  }
+
+  .tabs-container {
+    .tabs-bar {
+      li {
+        width: 296px;
+        height: 82px;
+        padding: 17px 22px;
+        font-size: 19px;
+        line-height: 24px;
+        background-color: $white;
+        box-shadow: $shadow;
+        border-radius: 34px;
+        margin-right: 92px;
+        margin-bottom: 20px;
+        cursor: pointer;
+
+        &.active,
+        &:hover {
+          font-weight: 700;
+        }
+      }
+    }
+  }
+
+  .tabs-content {
+    p {
+      margin-bottom: 16px;
+      font-size: 14px;
+      line-height: 21px;
+    }
+
+    li {
+      font-size: 14px;
+      line-height: 21px;
+      margin-top: 20px;
+    }
+  }
+
+  .about-main {
+    display: flex;
+    position: relative;
+    width: 100%;
+
+    div {
+      width: 60%;
+      min-width: 700px;
+
+      &.about-img {
+        margin-bottom: 40px;
+
+        img {
+          max-height: 360px;
+          max-width: 100%;
+        }
+      }
+    }
+  }
+
+  .about-happen-title {
+    margin-top: 24px;
+  }
+
+  h5 {
+    font-weight: 700;
+    margin-bottom: 8px;
+  }
+
+  .buttons-block {
+    width: 100%;
+
+    .order-button {
+      margin-top: 40px;
+    }
+  }
+}
+
+@import "responsiveAbout";

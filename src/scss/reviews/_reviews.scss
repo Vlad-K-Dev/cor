@@ -1,0 +1,21 @@
+@import "reviewsblock";
+
+.reviews {
+  background-color: $bg-white;
+
+  &-head span {
+    font-size: inherit;
+    font-weight: 400;
+  }
+
+  .owl-stage-outer {
+    overflow: visible !important;
+  }
+
+  .owl-item {
+    width: 552px !important;
+  }
+}
+
+@import 'responsiveReviews';
+@import 'responsiveReviewsblock';

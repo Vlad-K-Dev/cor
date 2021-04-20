@@ -1,0 +1,88 @@
+.navigation {
+  width: 64px;
+  height: 100%;
+  left: 0;
+  top: 0;
+  background-color: $bg-white;
+  z-index: 3;
+  position: fixed;
+
+  .nav-logo {
+    opacity: 0;
+    position: fixed;
+    display: block;
+    top: 72px;
+    left: 10px;
+    height: 44px;
+    width: 44px;
+    transition: none;
+    z-index: 4;
+
+    img {
+      height: 100%;
+      width: 100%;
+    }
+
+    &.active {
+      opacity: 1;
+      transition: all .3s ease-in-out;
+    }
+  }
+
+  .nav-mouse {
+    position: fixed;
+    bottom: 74px;
+    left: 20px;
+    width: 24px;
+    height: 36px;
+    opacity: 1;
+    transition: all .3s ease-in-out;
+
+    img {
+      width: 100%;
+      height: 100%;
+    }
+
+    &.none {
+      opacity: 0;
+    }
+  }
+
+  .nav-links {
+    position: fixed;
+    left: 28px;
+    top: 38%;
+    width: 8px;
+    height: 8px;
+
+    .nav-link {
+      display: block;
+      width: 8px;
+      height: 8px;
+      margin: 0 0 16px;
+      position: relative;
+
+      span {
+        width: 8px;
+        height: 8px;
+        position: absolute;
+        background-color: $main-palest;
+        border-radius: 50%;
+      }
+
+      &:hover, &.active {
+        span {
+          width: 12px;
+          height: 12px;
+          background-color: $main;
+          border-radius: 50%;
+          top: -2px;
+          left: -2px;
+        }
+      }
+    }
+  }
+  @media (max-width: 1200px) {
+    display: none;
+  }
+}

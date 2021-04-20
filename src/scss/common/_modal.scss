@@ -1,0 +1,68 @@
+.modal-wrapper {
+  position: fixed;
+  top: 0;
+  left: 0;
+  height: 100vh;
+  width: 100vw;
+  z-index: 4;
+  background: rgba(0, 0, 0, 0.33);
+  overflow: auto;
+}
+
+.modal-window {
+  padding: 48px 44px;
+  max-width: 98%;
+  width: 548px !important;
+  z-index: 5;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  background-color: $white;
+  box-shadow: $shadow;
+  border-radius: 58px;
+
+  .review-head {
+    display: flex;
+    -webkit-align-items: center;
+    align-items: center;
+    margin-bottom: 16px;
+
+    .review-img {
+      margin-right: 24px;
+      height: 96px;
+      width: 96px !important;
+    }
+  }
+
+  .modal-cross {
+    display: block;
+    width: 56px;
+    height: 56px;
+    background-image: url("../images/white-big-cross.svg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 22px 22px;
+    background-color: $main;
+    border-radius: 50%;
+    cursor: pointer;
+    position: absolute;
+    right: -16px;
+    top: -16px;
+
+    &:hover {
+      background-color: $main-pale;
+    }
+
+    &:active {
+      background-color: $main-strong;
+    }
+  }
+
+  p {
+    font-size: 16px;
+    line-height: 24px;
+  }
+}
+
+@import "responsiveModal";

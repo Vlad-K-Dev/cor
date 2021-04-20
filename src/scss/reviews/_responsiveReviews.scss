@@ -1,0 +1,23 @@
+@media (max-width: 1200px) {
+  .reviews {
+    .owl-item {
+      width: 512px !important;
+    }
+  }
+}
+
+@media (max-width: 1000px) {
+  .reviews {
+    .owl-item {
+      width: 388px !important;
+    }
+  }
+}
+
+@media (max-width: 700px) {
+  .reviews {
+    .owl-item {
+      width: 296px !important;
+    }
+  }
+}

@@ -1,0 +1,25 @@
+@media (max-width: 1200px) {
+  .agreement {
+    .agreement__logo{
+      margin: 32px;
+    }
+    .agreement-content {
+      padding-bottom: 32px;
+    }
+  }
+}
+
+@media (max-width: 700px) {
+  .agreement {
+    h2 {
+      font-size: 17px;
+      margin: 32px 0 16px;
+    }
+
+    li, a {
+      margin-bottom: 16px;
+      font-size: 15px;
+      line-height: 21px;
+    }
+  }
+}

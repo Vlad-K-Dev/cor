@@ -1,0 +1,141 @@
+@media (max-width: 1200px) {
+  .header {
+    .header-logo {
+      margin: 32px 0 132px;
+      -webkit-align-items: center;
+      align-items: center;
+
+      img {
+        margin: 0;
+        width: 160px;
+        height: 23px;
+      }
+
+      span, a {
+        font-size: 16px;
+        line-height: 24px;
+
+        &:before {
+          width: 16px;
+          height: 16px;
+          left: -24px;
+          top: 1px;
+        }
+      }
+    }
+
+    .header-main {
+      .header-main-content {
+        padding: 0;
+
+        .header-head {
+          margin-bottom: 16px;
+        }
+
+        h4 {
+          font-size: 16px;
+        }
+
+        .main-list li {
+          font-size: 16px;
+        }
+      }
+
+      .header-main-img {
+        img {
+          top: -100px;
+          max-height: 448px;
+        }
+      }
+    }
+  }
+}
+
+@media (max-width: 1000px) {
+  .header {
+    .header-logo {
+      margin: 42px 0;
+    }
+
+    .header-main {
+      -webkit-flex-direction: column-reverse;
+      -ms-flex-direction: column-reverse;
+      flex-direction: column-reverse;
+
+      .header-main-content {
+        padding-right: 0;
+        width: 100%;
+
+        .header-head {
+          width: 100%;
+        }
+
+        h4 {
+          margin-bottom: 40px;
+        }
+      }
+
+      .header-main-img {
+        width: 100%;
+
+        img {
+          position: relative;
+          display: block;
+          margin: 0 auto;
+          top: 0;
+          max-width: 100%;
+          max-height: 456px;
+          padding: 0 24px 52px;
+        }
+      }
+    }
+  }
+}
+
+@media (max-width: 700px) {
+  .header {
+    .header-logo {
+      margin: 32px 0;
+
+      img {
+        width: 160px;
+        height: 23px;
+      }
+    }
+
+    .header-main {
+      .header-main-content {
+        h4 {
+          font-size: 13px;
+          line-height: 21px;
+          margin-bottom: 32px;
+        }
+
+        .main-list {
+          li {
+            font-size: 13px;
+            line-height: 14px;
+          }
+        }
+      }
+
+      .header-main-img {
+        img {
+          padding: 0 24px 16px;
+          max-height: 304px;
+        }
+      }
+    }
+
+    .order-button {
+      width: 100%;
+      max-width: 256px;
+      margin: 32px auto 0 auto;
+      display: flex;
+
+      button {
+        width: 100%;
+      }
+    }
+  }
+}

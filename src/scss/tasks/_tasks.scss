@@ -1,0 +1,20 @@
+@import "tasksblock";
+
+.tasks {
+
+  .owl-stage-outer {
+    overflow: visible !important;
+  }
+
+  .owl-item {
+    width: 374px !important;
+
+    img {
+      width: auto !important;
+      margin: 0 auto 16px auto;
+    }
+  }
+}
+
+@import "responsiveTasks";
+@import "responsiveTasksblock";

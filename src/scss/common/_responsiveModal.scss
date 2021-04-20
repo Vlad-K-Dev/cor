@@ -1,0 +1,47 @@
+@media (max-width: 1200px) {
+  .modal-window {
+    padding: 32px 40px;
+    width: 648px !important;
+  }
+}
+
+@media (max-width: 1000px) {
+  .modal-window {
+    padding: 48px 48px;
+    width: 552px !important;
+  }
+}
+
+@media (max-width: 700px) {
+  .modal-window {
+    padding: 32px 28px;
+    width: calc(100% - 48px) !important;
+    border-radius: 33px;
+
+    .review-head {
+      .review-img {
+        margin-right: 8px;
+        height: 56.5px;
+        width: 56.5px !important;
+      }
+
+      h3 {
+        font-size: 16px;
+        line-height: 20px;
+      }
+    }
+
+    .modal-cross {
+      width: 44px;
+      height: 44px;
+      background-size: 18px 18px;
+      right: -12px;
+      top: -12px;
+    }
+
+    p {
+      font-size: 13px;
+      line-height: 21px
+    }
+  }
+}

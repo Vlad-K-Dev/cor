@@ -1,0 +1,15 @@
+@media (max-width: 1200px) {
+  .tasks {
+    .owl-item {
+      width: 332px !important;
+    }
+  }
+}
+
+@media (max-width: 700px) {
+  .tasks {
+    .owl-item {
+      width: 260px !important;
+    }
+  }
+}

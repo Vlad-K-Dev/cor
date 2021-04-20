@@ -1,0 +1,43 @@
+.agreement {
+  position: relative;
+
+  .agreement__logo {
+    width: 300px;
+    height: 42px;
+    margin: 32px 0 32px 150px;
+  }
+
+  .agreement-content {
+    max-width: 900px;
+    width: 100%;
+    margin: 0 auto auto;
+    padding: 0 32px 104px;
+  }
+
+  h1 {
+    font-size: 26px;
+    line-height: 32px;
+  }
+
+  h2, li, a {
+    font-size: 19px;
+    line-height: 24px;
+  }
+
+  h2 {
+    margin: 52px 0 24px;
+  }
+
+  li {
+    margin-bottom: 24px;
+  }
+
+  a.text-link {
+    font-size: inherit;
+    line-height: inherit;
+    color: inherit;
+    border-bottom: 1px solid $basic-typography;
+  }
+}
+
+@import "responsiveAgreement";

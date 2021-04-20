@@ -1,0 +1,72 @@
+.header {
+  background-color: $bg-white;
+
+  .header-logo {
+    display: flex;
+    -webkit-justify-content: space-between;
+    justify-content: space-between;
+    margin: 40px 0 56px;
+
+    img {
+      width: 300px;
+      height: 42px;
+    }
+
+    span, a {
+      font-size: 26px;
+      line-height: 32px;
+      color: $basic-typography;
+      font-weight: 700;
+      position: relative;
+      cursor: pointer;
+
+      &:before {
+        display: block;
+        position: absolute;
+        content: "";
+        width: 26px;
+        height: 27px;
+        background-image: url(../images/tel.svg);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        left: -34px;
+      }
+    }
+  }
+
+  .header-main {
+    display: flex;
+    position: relative;
+
+    .header-main-content {
+      width: 55%;
+
+      h4 {
+        margin-bottom: 32px;
+        font-size: 19px;
+      }
+
+      .header-head {
+        margin-bottom: 24px;
+        margin-top: 0;
+      }
+    }
+    .header-main-img {
+      width: 45%;
+      position: relative;
+
+      img {
+        position: absolute;
+        right: 0;
+        left: 0;
+        margin: auto;
+        top: -80px;
+        max-height: 536px;
+        max-width: 100%;
+      }
+    }
+  }
+}
+
+@import '_responsiveHeader.scss';

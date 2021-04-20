@@ -1,0 +1,159 @@
+@media (max-width: 1360px) {
+  .about {
+    .tabs-container {
+      .tabs-bar {
+        li {
+          margin-right: 32px;
+        }
+      }
+    }
+  }
+}
+
+@media (max-width: 1200px) {
+  .about {
+    .tabs-container {
+      margin: 88px 0 56px 0;
+    }
+
+    .tabs-content {
+      h3 {
+        font-size: 26px;
+        line-height: 32px;
+      }
+    }
+
+    .about-main {
+      div {
+        &.about-content {
+          padding-right: 12px;
+        }
+
+        &.about-img {
+          img {
+            padding-right: 0;
+          }
+        }
+      }
+    }
+  }
+}
+
+@media (max-width: 1000px) {
+  .about {
+    .tabs-container {
+      margin: 80px 0 32px 0;
+    }
+
+    .about-main {
+      -ms-flex-wrap: wrap;
+      -webkit-flex-wrap: wrap;
+      flex-wrap: wrap;
+      -ms-flex-direction: column;
+      -webkit-flex-direction: column;
+      flex-direction: column;
+
+      div {
+        min-width: 0;
+
+        &.about-content {
+          width: 100%;
+          padding-right: 0;
+        }
+
+        &.about-img {
+          width: 100%;
+
+          img {
+            max-height: 224px;
+            top: 72px;
+            left: 0;
+          }
+        }
+      }
+    }
+
+    .buttons-block {
+      .about-modal-button {
+        font-size: 16px;
+        line-height: 14px;
+      }
+    }
+  }
+}
+
+@media (max-width: 700px) {
+  .about {
+    .tabs-wrapper {
+      display: flex;
+      flex-direction: column;
+    }
+
+    .tabs-container {
+      margin: 0 0 32px 0;
+
+    .tabs-bar {
+      .tabs-item {
+        width: 100%;
+        height: auto;
+        padding-left: 26px;
+        padding-right: 48px;
+        margin-right: 12px;
+      }
+    }
+  }
+
+  .tabs-content {
+    h3 {
+      font-size: 20px;
+      line-height: 26px;
+    }
+
+    li {
+      font-size: 13px;
+      line-height: 14px;
+      margin-top: 16px;
+    }
+  }
+
+    .about-main {
+      div {
+        &.about-img {
+          img {
+            max-height: 184px;
+            top: 92px;
+          }
+        }
+      }
+    }
+
+    .buttons-block {
+      display: flex;
+      -webkit-flex-direction: column;
+      -ms-flex-direction: column;
+      flex-direction: column;
+
+      .about-modal-button {
+        text-align: center;
+        display: block;
+        margin: 20px auto 0;
+      }
+    }
+  }
+}
+
+@media (max-width: 270px) {
+  .about {
+    .about-main {
+      div {
+        &.about-img {
+          img {
+            &.about-representation-img {
+              top: 128px;
+            }
+          }
+        }
+      }
+    }
+  }
+}

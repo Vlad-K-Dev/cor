@@ -1,0 +1,15 @@
+@import "priceblocks";
+
+.prices {
+  .owl-stage-outer {
+    overflow: visible !important;
+    margin-bottom: 140px;
+  }
+
+  .owl-item {
+    width: 370px !important;
+  }
+}
+
+@import "responsivePrice";
+@import "responsivePriceblocks";

@@ -1,0 +1,36 @@
+.review {
+  padding: 32px 44px;
+  background-color: $white;
+  box-shadow: $shadow;
+  border-radius: 58px;
+  height: 288px;
+
+  p {
+    font-size: 16px;
+    line-height: 24px;
+  }
+
+  .review-head {
+    display: flex;
+    -webkit-align-items: center;
+    align-items: center;
+    margin-bottom: 16px;
+
+    .review-img {
+      margin-right: 24px;
+      height: 96px;
+      width: 96px !important;
+    }
+  }
+
+  .review-modal-button {
+    display: inline-block;
+    margin-top: 24px;
+    border-bottom: 1px solid $main;
+    line-height: 12px;
+    cursor: pointer;
+    font-size: 18px;
+    color: $main;
+    font-weight: 700;
+  }
+}

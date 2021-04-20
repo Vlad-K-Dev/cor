@@ -1,0 +1,94 @@
+@media (max-width: 1200px) {
+  .container {
+    padding: 0 64px;
+  }
+
+  h1, h2 {
+    font-size: 30px;
+    margin: 88px 0 56px;
+  }
+
+  h3 {
+    font-size: 20px;
+    line-height: 26px;
+  }
+
+  h4 {
+    font-size: 18px;
+    line-height: 24px;
+  }
+
+  .order-button {
+    margin: 56px 0 0;
+    height: 48px;
+    font-size: 15px;
+  }
+
+  .nav-button {
+    right: 64px;
+    bottom: 32px;
+    width: 48px;
+    height: 48px;
+    background-size: 14px 7px;
+  }
+}
+
+@media (max-width: 1000px) {
+  .container {
+    padding: 0 40px;
+  }
+
+  h1, h2 {
+    margin: 80px 0 56px;
+  }
+
+  h3 {
+    font-size: 17px;
+  }
+
+  .order-button {
+    margin: 40px 0 0;
+  }
+
+  .nav-button {
+    right: 40px;
+  }
+}
+
+@media (max-width: 700px) {
+  .container {
+    padding: 0 32px;
+  }
+
+  h1, h2 {
+    font-size: 26px;
+    margin: 72px 0 56px;
+  }
+
+  .buttons-block {
+    .order-button {
+      width: calc(100% - 56px);
+      max-width: 256px;
+      margin: 32px 0 0;
+      display: flex;
+    }
+  }
+
+  .notifications-wrapper {
+    .notifications-item {
+      padding: 16px 16px 16px 60px;
+
+      h4 {
+        font-size: 15px;
+      }
+
+      p {
+        font-size: 13px;
+      }
+    }
+  }
+
+  .nav-button {
+    right: 32px;
+  }
+}

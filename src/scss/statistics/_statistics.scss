@@ -1,0 +1,39 @@
+.statistics {
+  background-color: $bg-white;
+
+  .statistics-main-content {
+    display: flex;
+    margin-top: 16px;
+    height: 100%;
+
+    .statistics-main {
+      width: 50%;
+
+      p {
+        margin-bottom: 24px;
+
+        &:last-of-type {
+          margin-bottom: 0;
+        }
+      }
+    }
+
+    .statistics-img {
+      width: 50%;
+      position: relative;
+
+      img {
+        position: absolute;
+        top: -68px;
+        right: 0;
+        left: 0;
+        margin: auto;
+        max-height: 420px;
+        max-width: 100%;
+        padding-left: 20px;
+      }
+    }
+  }
+}
+
+@import "responsiveStatistics";

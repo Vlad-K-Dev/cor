@@ -1,0 +1,35 @@
+@media (max-width: 1200px) {
+  .task {
+    width: 336px;
+    padding: 24px 20px;
+
+    img {
+      height: 192px;
+    }
+  }
+}
+
+@media (max-width: 1000px) {
+  .task {
+    height: 356px;
+
+    img {
+      height: 156px;
+    }
+  }
+}
+
+@media (max-width: 700px) {
+  .task {
+    width: 264px;
+
+    p {
+      font-size: 13px;
+      line-height: 21px;
+    }
+
+    img {
+      height: 132px;
+    }
+  }
+}

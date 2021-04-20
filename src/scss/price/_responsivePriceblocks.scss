@@ -1,0 +1,184 @@
+@media (max-width: 1200px) {
+  .price {
+    .order-button {
+      height: 64px;
+    }
+  }
+}
+
+@media (max-width: 1000px) {
+  .price {
+    padding: 36px 32px;
+    height: 490px;
+
+    img {
+      height: 132px;
+    }
+
+    h4 {
+      & + p {
+        height: 84px;
+      }
+    }
+
+    p {
+      font-size: 13px;
+      line-height: 21px;
+    }
+
+    .price-value {
+      font-size: 20px;
+      line-height: 26px;
+
+      &:before {
+        top: 8px;
+      }
+
+      &:after {
+        top: 8px;
+      }
+    }
+
+    .order-button {
+      font-size: 13px;
+      line-height: 21px;
+      height: 60px;
+    }
+  }
+
+  .owl-item {
+    &:first-of-type {
+      .price {
+        .price-value {
+          &:before, &:after {
+            width: 100px;
+          }
+        }
+      }
+    }
+
+    &:nth-of-type(2) {
+      .price {
+        .price-value {
+          &:before, &:after {
+            width: 98px;
+          }
+        }
+      }
+    }
+
+    &:nth-of-type(2),
+    &:nth-of-type(4) {
+      .price {
+        .price-value {
+          font-size: 13px;
+          line-height: 21px;
+
+          &:before, &:after {
+            width: 64px;
+          }
+        }
+      }
+    }
+  }
+}
+
+@media (max-width: 700px) {
+  .price {
+    padding: 28px 24px;
+    height: 448px;
+
+    img {
+      height: 124px;
+    }
+
+    h4 {
+      margin-bottom: 12px;
+
+      & + p {
+        height: 104px;
+      }
+    }
+
+    p {
+      font-size: 13px;
+      line-height: 21px;
+      padding: 0 12px;
+    }
+
+    .price-value {
+      font-size: 16px;
+      margin: 8px 0 4px;
+
+      &:before {
+        top: 10px;
+      }
+
+      &:after {
+        top: 10px;
+      }
+    }
+
+    .order-button {
+      height: 47px;
+      font-size: 12px;
+      line-height: 16px;
+    }
+  }
+
+  .owl-item {
+    &:first-of-type {
+      .price {
+        .price-value {
+          &:before, &:after {
+            width: 86px;
+          }
+        }
+      }
+    }
+
+    &:nth-of-type(2) {
+      .price {
+        .price-value {
+          &:before, &:after {
+            width: 82px;
+          }
+        }
+      }
+    }
+
+    &:nth-of-type(3) {
+      .price {
+        .price-value {
+          margin-top: 8px;
+
+          &:before, &:after {
+            width: 82px;
+          }
+        }
+      }
+    }
+
+    &:nth-of-type(4) {
+      .price {
+        .price-value {
+          margin-top: 8px;
+        }
+      }
+    }
+
+    &:nth-of-type(2),
+    &:nth-of-type(4) {
+      .price {
+        .price-value {
+          line-height: 26px;
+          margin-bottom: 4px;
+
+          &:before, &:after {
+            width: 44px;
+          }
+        }
+      }
+    }
+  }
+}
